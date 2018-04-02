@@ -12,6 +12,8 @@
 		20738F0E206D99BA0016DDB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20738F0C206D99BA0016DDB5 /* Main.storyboard */; };
 		20738F10206D99BA0016DDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20738F0F206D99BA0016DDB5 /* Assets.xcassets */; };
 		20738F13206D99BA0016DDB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20738F11206D99BA0016DDB5 /* LaunchScreen.storyboard */; };
+		20738F1B2072843A0016DDB5 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20738F1A2072843A0016DDB5 /* Sign.swift */; };
+		20738F1D207284BE0016DDB5 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20738F1C207284BE0016DDB5 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		20738F0F206D99BA0016DDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20738F12206D99BA0016DDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20738F14206D99BA0016DDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20738F1A2072843A0016DDB5 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		20738F1C207284BE0016DDB5 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		20738F07206D99BA0016DDB5 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				20738F1A2072843A0016DDB5 /* Sign.swift */,
+				20738F1C207284BE0016DDB5 /* GameState.swift */,
 				20738F08206D99BA0016DDB5 /* AppDelegate.swift */,
 				20738F0A206D99BA0016DDB5 /* ViewController.swift */,
 				20738F0C206D99BA0016DDB5 /* Main.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20738F0B206D99BA0016DDB5 /* ViewController.swift in Sources */,
+				20738F1D207284BE0016DDB5 /* GameState.swift in Sources */,
 				20738F09206D99BA0016DDB5 /* AppDelegate.swift in Sources */,
+				20738F1B2072843A0016DDB5 /* Sign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
